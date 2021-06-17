@@ -1,0 +1,102 @@
+
+/* reset da pagina para formato 0 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /* final de reset */
+
+ /* todo o header no bloco flex */
+
+ .div-containner-header-flex {
+   
+    background-color: blueviolet;
+    display: flex ;
+    justify-content: space-around;
+    height:70px;
+    border-bottom: 2px solid #000;
+}
+ .redes-sociais{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+ .redes-sociais ul {
+
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.redes-sociais ul img {
+    width: 35px;
+    padding-top: 3px;
+
+}
+ /* class logo */
+
+ .filho-header-1 p {
+    color:black;
+    margin-top: 28px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+ 
+
+ /* class menu de opçôes */
+
+ .containner-flex-header-right {
+
+    width: 460px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
