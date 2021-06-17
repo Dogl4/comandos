@@ -1,6 +1,6 @@
 # Boas vindas ao repositório [Comandos](https://github.com/Dogl4/Comandos)
 
-Um copilado de Documentos e Manuas para ajuda o seu desenvolvimento como programando, nossa missão é ser um repositório em Pt-BR para ajuda os programadores. 🚀
+Um compilado de Documentos e Manuais para ajudar o desenvolvimento, nossa missão é ser um repositório em Pt-BR para ajuda os programadores. 🚀
 
 ---
 
