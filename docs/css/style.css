@@ -1,23 +1,23 @@
-body{
+body {
 	background-color: #8EBFD3;
 	color:#333340;  
 	font-family: sans-serif;
 }
 div {
-background-color: #FFF;
-margin: 3% auto;
-padding: 20px;
-width: 80%;
-border-radius: 15px;
+	background-color: #FFF;
+	margin: 3% auto;
+	padding: 20px;
+	width: 80%;
+	border-radius: 15px;
 }
-h1{
-margin-top: 0px;
-font-size: 20pt;
-text-align: center;
-border-bottom: solid 1px;
-padding-bottom: 10px;
+h1 {
+	margin-top: 0px;
+	font-size: 20pt;
+	text-align: center;
+	border-bottom: solid 1px;
+	padding-bottom: 10px;
 }
-span{
+span {
 	color: red;
 	font-weight: bolder;
 }
@@ -27,9 +27,9 @@ li {
 li#none {
     list-style-type: none;
 }
-.laranja{
+.laranja {
 	color: orange;	
 }
-h3{
+h3 {
 	margin: 18px 0 -3px;
 }
