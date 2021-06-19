@@ -1,7 +1,6 @@
-
 /* reset da pagina para formato 0 */
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -37,7 +36,7 @@ table {
 
  /* todo o header no bloco flex */
 
- .div-containner-header-flex {
+ .div-container-header-flex {
    
     background-color: blueviolet;
     display: flex ;
@@ -51,12 +50,10 @@ table {
     justify-content: space-between;
 }
  .redes-sociais ul {
-
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 .redes-sociais ul img {
     width: 35px;
@@ -72,15 +69,11 @@ table {
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
-
 }
-
- 
 
  /* class menu de opçôes */
 
- .containner-flex-header-right {
-
+ .container-flex-header-right {
     width: 460px;
     display:flex;
     justify-content: space-around;
