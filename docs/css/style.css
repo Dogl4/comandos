@@ -24,6 +24,9 @@ span{
 li {
 	margin-bottom: 6px;
 }
+li#none {
+    list-style-type: none;
+}
 .laranja{
 	color: orange;	
 }
