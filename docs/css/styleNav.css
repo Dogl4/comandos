@@ -67,10 +67,10 @@ nav ul {
 
 nav {
   display: flex;
-  /* height: 9vh; */
+  /* min-height: 9vh; */
   align-items: center;
   justify-content: space-around;
-  background-color: rgb(53, 160, 20);
+  background-color: rgb(17, 80, 77);
   position: relative;
 }
 
@@ -93,7 +93,7 @@ ul.first > li > div {
   margin: 38px -15px;
   padding: 3px 0;
   background-color:#132831;;
-  border: 2px solid rgb(53, 160, 20);
+  border: 2px solid rgb(17, 80, 77);
   border-radius: 1%;
   z-index: 6;
 }
@@ -120,5 +120,22 @@ ul.first > li:hover > div {
 iframe {
   display: flex;
   width: 100%;
-  height: 92.3vh;
+  min-height: 88.8vh;
+  z-index: 20;
+  scroll-margin-top: -200px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 4.5px;
+  background-color: rgba(10, 10, 10, 0.700);
+  height: 4.4vh;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }

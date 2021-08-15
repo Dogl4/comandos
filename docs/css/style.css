@@ -64,3 +64,9 @@ li {
 h3 {
   margin: 18px 0 -3px;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  background-color: blueviolet;
+}
