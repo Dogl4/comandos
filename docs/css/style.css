@@ -36,7 +36,7 @@ h1 {
 }
 
 span {
-  color: red;
+  color: #35a947;
   font-weight: bolder;
 }
 
@@ -58,15 +58,9 @@ li {
 }
 
 .laranja {
-  color: orange;
+  color:rgb(251, 84, 43);
 }
 
 h3 {
   margin: 18px 0 -3px;
-}
-
-/* Footer */
-footer {
-  display: flex;
-  background-color: blueviolet;
 }
