@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(200, 200, 200);
+  font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+}
+
+/* Menu */
+
+h2 a {
+  text-decoration: none;
+  padding: 18px 15px 16px 15px;
+}
+
+ul.first > li {
+  padding: 24px 15px 20px 15px;
+}
+
+a:hover,
+ul.first > li:hover{
+  background-color: #333340;
+}
+
+@media only screen and (max-width: 688px) {
+  ul.first > li {
+    padding: 24px 15px 20px 15px;
+  }
+  ul.first > li:nth-child(5) {
+    padding: 14px 15px 12px 15px;
+  }
+  ul.first > li:nth-child(5):hover > div {
+    display: flex;
+    margin: 47px -15px;
+  }
+}
+@media only screen and (max-width: 638px) {
+  h2 a {
+  padding: 27px 15px 25px 15px;
+  }
+  ul.first > li{
+    padding: 33px 15px 29px 15px;
+  }
+  ul.first > li:nth-child(5):hover  > div {
+    display: flex;
+    top: 29px;
+  }
+}
+
+a, nav li {
+  cursor: pointer;
+}
+
+a {
+  box-sizing: inherit;
+  overflow: hidden;
+  user-select: none;
+  width: auto;
+  display: block;
+  /* Importante */
+  /* padding: 10px 15px 9px 15px */
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  /* height: 9vh; */
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(53, 160, 20);
+  position: relative;
+}
+
+ul.first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul.first > li {
+  font-weight: 800;
+  color: rgb(207, 200, 200);
+  display: flex;
+  position: relative;
+}
+
+ul.first > li > div {
+  display: none;
+  position: absolute;
+  margin: 38px -15px;
+  padding: 3px 0;
+  background-color:#132831;;
+  border: 2px solid rgb(53, 160, 20);
+  border-radius: 1%;
+  z-index: 6;
+}
+
+/* Tamanho nas li */
+ul.first > li > div ul li{
+  padding: 5px;
+  margin: 0 6px;
+}
+
+ul.first > li:nth-child(2) > div {
+  min-width: 350px;
+}
+ul.first > li:nth-child(4) > div {
+  min-width: 250px;
+}
+
+ul.first > li:hover > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* main */
+iframe {
+  display: flex;
+  width: 100%;
+  height: 92.3vh;
+}

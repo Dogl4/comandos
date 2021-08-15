@@ -1,10 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(200, 200, 200);
+  font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+}
+
+/* Header */
+iframe{
+  width: 100%;
+}
+
+/* Body */
 body {
   background-color: #132831;
   color: #333340;
   font-family: sans-serif;
 }
 
-div {
+section {
   background-color: #333340;
   color: #ccc;
   margin: 3% auto;
@@ -26,8 +40,21 @@ span {
   font-weight: bolder;
 }
 
+section ol {
+  margin: 20px;
+}
+
+section ol li {
+  margin: 6px;
+}
+
+section ul {
+  margin: 3px 5px 6px 16px;
+}
+
 li {
   margin-bottom: 6px;
+
 }
 
 .laranja {

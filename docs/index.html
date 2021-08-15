@@ -6,14 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resumo comandos</title>
-  <link rel="stylesheet" href="css/styleIndex.css">
+  <link rel="stylesheet" href="css/styleNav.css">
 </head>
 
 <body>
-
   <nav>
     <div>
-      <h1>Comandos</h1>
+      <ul>
+        <li>
+          <h2><a href="index.html">Comandos</a></h2>
+        </li>
+      </ul>
     </div>
 
     <ul class="first">
@@ -21,7 +24,7 @@
         <div>
           <ul>
             <li>Acessibilidade</li>
-            <li><a href="Comandos/pages/terminal/gitHub.html">GitHub</a></li>
+            <li><a href="Conteudo/pages/terminal/gitHub.html" target="conteudo">GitHub</a></li>
             <li>npm</li>
           </ul>
         </div>
@@ -47,61 +50,18 @@
           </ul>
         </div>
       </li>
-        <li>Visual Studio Code
-          <div>
-            <ul>
-              <li>Atalhos</li>
-            </ul>
-          </div>
-        </li>
+      <li>Visual Studio Code
+        <div>
+          <ul>
+            <li>Atalhos</li>
+          </ul>
+        </div>
+      </li>
     </ul>
   </nav>
-
   <main>
-    <section>
-      <h2>Sumário</h2>
-      <ol class="ulSumario">
-        <li>Terminal
-          <div>
-            <ul>
-              <li>Acessibilidade</li>
-              <li><a href="Comandos/pages/terminal/gitHub.html">GitHub</a></li>
-              <li>npm</li>
-            </ul>
-          </div>
-        </li>
-  
-        <li>JavaScript
-          <div>
-            <ul>
-              <li>Básico</li>
-              <li>DOM (document | localStorage | cookies)</li>
-              <li>LocalStorage</li>
-              <li>HOFs</li>
-              <li>Funções Nativas</li>
-              <li>APIs (Funções assíncronas | Requisições)</li>
-            </ul>
-          </div>
-        </li>
-        <li>HTML</li>
-        <li>CSS
-          <div>
-            <ul>
-              <li>Bibliotecas | FrameWorks</li>
-            </ul>
-          </div>
-        </li>
-          <li>Visual Studio Code
-            <div>
-              <ul>
-                <li>Atalhos</li>
-              </ul>
-            </div>
-          </li>
-      </ol>
-    </section>
+    <iframe src="sumario.html" frameborder="0" name="conteudo"></iframe>
   </main>
-
 </body>
 
 </html>
