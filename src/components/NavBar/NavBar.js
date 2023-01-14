@@ -13,7 +13,7 @@ const NavBar = () => {
       </div>
       <div className="flex">
         { MENU.map(({ TITLE, OPTIONS }) => (
-          <Dropdown title={TITLE} options={OPTIONS} />
+          <Dropdown title={TITLE} options={OPTIONS} key={`key-${TITLE}`} />
         )) }
       </div>
     </div>
