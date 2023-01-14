@@ -8,6 +8,7 @@ const NavBar = () => {
     <div className="nav-bar flex w-100 bg-color-green">
       <div className="flex">
         <Image src={logo} alt="logo" width={24} height={24} />
+        {/* <h2>&lt; comandos.dev /&gt;</h2> */}
       </div>
       <div className="flex">
         <Dropdown />
