@@ -8,7 +8,7 @@ const Dropdown = ({ title, options }) => {
   };
 
   return (
-    <div className="nav-optin bg-color-green h-max-40 pl-1" key={`key-${title}`}>
+    <div className="nav-optin bg-color-green h-max-40 pl-1">
       <button
         id="fade-button"
         onMouseEnter={handleHover}
