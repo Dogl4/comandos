@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Dropdown = () => {
+const Dropdown = ({ title, options }) => {
   const [visible, setVisible] = useState(false);
 
   const handleHover = () => {
@@ -8,24 +8,27 @@ const Dropdown = () => {
   };
 
   return (
-    <div className="nav-optin bg-color-green bg-font-white-20 h-max-40 pl-1">
+    <div className="nav-optin bg-color-green h-max-40 pl-1" key={`key-${title}`}>
       <button
         id="fade-button"
         onMouseEnter={handleHover}
         onMouseLeave={handleHover}
-        className={`${Boolean(visible) ? 'bg-color-brown' : 'bg-color-green'} p-12-20`}
+        className={`${Boolean(visible) ? 'bg-color-brown' : 'bg-color-green'} p-12-20 bolder bg-font-white-20`}
       >
-        Dashboard
+        {title}
       </button>
-      <ul
-        className={`${Boolean(visible) ? 'block' : 'dn'} list-clear position-fixed bg-color-green-bolder p-0-3`}
-        onMouseEnter={handleHover}
-        onMouseLeave={handleHover}
-      >
-        <li>Profile</li>
-        <li>My account</li>
-        <li>Logout</li>
-      </ul>
+      {!!options.length && (
+        <ul
+          className={`${Boolean(visible) ? 'block' : 'dn'} list-clear position-fixed bg-color-green-bolder p-0-3`}
+          onMouseEnter={handleHover}
+          onMouseLeave={handleHover}
+        >
+          {options.map((option) => (
+            <li key={`key-${option}`}>{option}</li>
+          ))}
+        </ul>
+        )
+      }
     </div>
   );
 }
