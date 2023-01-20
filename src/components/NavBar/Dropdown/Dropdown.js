@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const Dropdown = ({ title, options }) => {
@@ -25,7 +26,7 @@ const Dropdown = ({ title, options }) => {
         >
           {options.map(({ name, url }) => (
             <li key={`key-${name}`}>
-              {url ? <a href={url}>{name}</a> : name}
+              {url ? <Link href={url}>{name}</Link> : name}
             </li>
           ))}
         </ul>

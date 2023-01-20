@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from "next/head";
 import { NavBar } from '../components/NavBar';
+import Link from 'next/link';
 
 const home = () => {
   return (
@@ -18,7 +19,7 @@ const home = () => {
               <div>
                 <ul>
                   <li>Acessibilidade</li>
-                  <li><a href="/terminal/git-hub">GitHub</a></li>
+                  <li><Link href="/terminal/git-hub">GitHub</Link></li>
                   <li>npm</li>
                 </ul>
               </div>
