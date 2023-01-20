@@ -1,0 +1,46 @@
+section {
+  background-color: #333340;
+  color: #ccc;
+  margin: 3% auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 15px;
+}
+
+h1 {
+  margin-top: 0px;
+  font-size: 20pt;
+  text-align: center;
+  border-bottom: solid 1px;
+  padding-bottom: 10px;
+}
+
+span {
+  color: #35a947;
+  font-weight: bolder;
+}
+
+section ol {
+  margin: 20px;
+}
+
+section ol li {
+  margin: 6px;
+}
+
+section ul {
+  margin: 3px 5px 6px 16px;
+}
+
+li {
+  margin-bottom: 6px;
+
+}
+
+.laranja {
+  color:rgb(251, 84, 43);
+}
+
+h3 {
+  margin: 18px 0 -3px;
+}

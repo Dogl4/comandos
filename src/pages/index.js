@@ -10,6 +10,50 @@ const home = () => {
       </Head>
       <NavBar />
       <div>home</div>
+      <main>
+        <section>
+          <h1>Sumário</h1>
+          <ol>
+            <li>Terminal
+              <div>
+                <ul>
+                  <li>Acessibilidade</li>
+                  <li><a href="/terminal/git-hub">GitHub</a></li>
+                  <li>npm</li>
+                </ul>
+              </div>
+            </li>
+
+            <li>JavaScript
+              <div>
+                <ul>
+                  <li>Básico</li>
+                  <li>DOM (document | localStorage | cookies)</li>
+                  <li>LocalStorage</li>
+                  <li>HOFs</li>
+                  <li>Funções Nativas</li>
+                  <li>APIs (Funções assíncronas | Requisições)</li>
+                </ul>
+              </div>
+            </li>
+            <li>HTML</li>
+            <li>CSS
+              <div>
+                <ul>
+                  <li>Bibliotecas | FrameWorks</li>
+                </ul>
+              </div>
+            </li>
+            <li>Visual Studio Code
+              <div>
+                <ul>
+                  <li>Atalhos</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </main>
     </>
   )
 }
