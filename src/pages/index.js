@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from "next/head";
-import { NavBar } from '../components/NavBar';
+import { NavBar } from '../components/index';
 import Link from 'next/link';
 
 const home = () => {
@@ -10,7 +10,6 @@ const home = () => {
         <title>comandos.dev</title>
       </Head>
       <NavBar />
-      <div>home</div>
       <main>
         <section>
           <h1>Sumário</h1>

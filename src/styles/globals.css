@@ -186,3 +186,14 @@ a {
 .title a {
   text-decoration: none;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+}
+
+.footer div {
+  padding: 0 10px;
+}
