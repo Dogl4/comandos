@@ -98,7 +98,6 @@ body {
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -178,4 +177,12 @@ a {
 .nav-bar {
   align-items: center;
   justify-content: space-around;
+}
+
+.title h3 {
+  display: contents;
+}
+
+.title a {
+  text-decoration: none;
 }

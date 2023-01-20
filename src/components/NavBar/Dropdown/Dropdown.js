@@ -23,8 +23,10 @@ const Dropdown = ({ title, options }) => {
           onMouseEnter={handleHover}
           onMouseLeave={handleHover}
         >
-          {options.map((option) => (
-            <li key={`key-${option}`}>{option}</li>
+          {options.map(({ name, url }) => (
+            <li key={`key-${name}`}>
+              {url ? <a href={url}>{name}</a> : name}
+            </li>
           ))}
         </ul>
         )

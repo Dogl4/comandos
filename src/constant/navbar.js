@@ -1,11 +1,11 @@
 export const MENU = [
   {
     TITLE: 'Terminal',
-    OPTIONS: ['Acessibilidade', 'GitHub', 'npm'],
+    OPTIONS: [{ name: 'Acessibilidade'} , { name: 'GitHub', url: '/terminal/git-hub' }, { name: 'npm' }],
   },
   {
     TITLE: 'JavaScript',
-    OPTIONS: ['Básica', 'DOM (ducment | locaStorage | cokkies)', 'LocalStorage', 'HOFs', 'Funções Nativas', 'APIs (Funções assíncronas | Requisições)'],
+    OPTIONS: [{ name: 'Básica' }, { name: 'DOM (ducment | locaStorage | cokkies)' }, { name: 'LocalStorage' }, { name: 'HOFs' }, { name: 'Funções Nativas' }, { name: 'APIs (Funções assíncronas | Requisições)' }],
   },
   {
     TITLE: 'HTML',
@@ -13,10 +13,10 @@ export const MENU = [
   },
   {
     TITLE: 'CSS',
-    OPTIONS: ['Bibliotecas | FrameWorks'],
+    OPTIONS: [{ name: 'Bibliotecas | FrameWorks' }],
   },
   {
     TITLE: 'Visual Studio Code',
-    OPTIONS: ['Atalhos'],
+    OPTIONS: [{ name: 'Atalhos' }],
   }
 ];
