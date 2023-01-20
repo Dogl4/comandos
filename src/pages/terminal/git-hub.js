@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from "next/head";
-import { NavBar } from '../../components/NavBar/index';
+import { NavBar } from '../../components/index';
 
 const GitHub = () => {
   return (
@@ -9,7 +9,6 @@ const GitHub = () => {
         <title>comandos.dev (GitHub)</title>
       </Head>
       <NavBar />
-      <div>GitHub</div>
       <main>
       <section>
         <h1>Comandos principais do git:</h1>
